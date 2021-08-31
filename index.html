@@ -24,44 +24,44 @@
 			<a href="#" class="close"></a>
 			<li>
 				<a href="#item01">
-					<img src="src/Intro_docker.png" alt="">
+					<img src="src/Presentación1/Diapositiva1.PNG" alt="">
 				</a>
 			</li>
 
 			<li>
 				<a href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3892302/contact.png" alt="Introduccion a docker">
+					<img src="src/Presentación1/Diapositiva2.PNG" alt="Introduccion a docker">
 				</a>
 			</li>
 
 			<li>
-				<a href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/4154721/dive--001.png" alt="">
+				<a href="#item03">
+					<img src="src/Presentación1/Diapositiva3.PNG" alt="">
 				</a>
 			</li>
 			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/4356121/darko--dr.jpg" alt="">
+				<a class="image" href="#item04">
+					<img src="src/Presentación1/Diapositiva4.PNG" alt="">
 				</a>
 			</li>
 			<li>
-				<a class="image" href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3695553/news.png" alt="">
+				<a class="image" href="#item05">
+					<img src="src/Presentación1/Diapositiva5.PNG" alt="">
 				</a>
 			</li>
 			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/4360101/liberosis_--_12.png" alt="">
+				<a class="image" href="#item06">
+					<img src="src/Presentación1/Diapositiva6.PNG" alt="">
 				</a>
 			</li>
 			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3148799/technical-book.jpg" alt="">
+				<a class="image" href="#item07">
+					<img src="src/Presentación1/Diapositiva7.PNG" alt="">
 				</a>
 			</li>
 			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+				<a class="image" href="#item08">
+					<img src="src/Presentación1/Diapositiva8.PNG" alt="">
 				</a>
 			</li>
 		</ul>
@@ -90,10 +90,15 @@
 	
 		<div class="row">
 			<div class="description">
-				<h1>Item 02</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
+				<h1>Entorno de desarrollo</h1>
+				<p><br><br/>La instalación de Docker Desktop incluye Docker Engine, Docker CLI client, Docker Compose, Docker Content Trust, Kubernetes y Credential Helper.</p>
+				<p><br><br/>Los contenedores y las imágenes creadas con Docker Desktop se comparten entre todas las cuentas de usuario en las máquinas donde está instalado. Esto se debe a que todas las cuentas de Windows utilizan la misma máquina virtual para crear y ejecutar contenedores. Tenga en cuenta que no es posible compartir contenedores e imágenes entre cuentas de usuario cuando se utiliza el backend de Docker Desktop WSL 2.</p>
+				<p><br><br/>Los escenarios de virtualización anidados, como ejecutar Docker Desktop en una instancia de VMWare o Parallels, pueden funcionar, pero no hay garantías. Para obtener más información, consulte Ejecución de Docker Desktop en escenarios de virtualización anidados.
+					<br><br/> <center><a href="https://youtu.be/W8yhTTt7WY0" class="boton esmeralda">Ver Video</a></center>
+				</p>
+
 			</div>
-			<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+			<img src="https://www.docker.com/sites/default/files/d8/styles/large/public/2020-01/List%20plus%20running%20compose.png?itok=Vq-sdqqC" alt="">
 		</div> <!-- / row -->
 
 	</div> <!-- / Item 02 -->
@@ -104,10 +109,15 @@
 	
 			<div class="row">
 				<div class="description">
-					<h1>Item 02</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
+					<h1>Hola Mundo</h1>
+					<p>Con el comando run vamos a crear un contenedor donde vamos a ejecutar un comando, en este caso vamos a crear el contenedor a partir de una imagen ubuntu. Como todavía no hemos descargado ninguna imagen del registro docker hub, es necesario que se descargue la imagen. Si la tenemos ya en nuestro ordenador no será necesario la descarga. Más adelante estudiaremos como funcionan las imágenes en docker. Finalmente indicamos el comando que vamos a ejecutar en el contenedor, en este caso vamos a escribir un “Hola Mundo”.</p>
+					<p>Por lo tanto, cuando se finaliza la descarga de la imagen, se crea un contenedor a partir de la imagen y se ejecuta el comando que hemos indicado, podemos ver la salida en pantalla. Una vez que se ejecuta la instrucción el contenedor se detiene (stop), podemos ver la lista de contenedores detenidos con el siguiente comando:
+						$ sudo docker ps -a
+							
+						<br><br/> <center><a href="https://youtu.be/8pxnyoQM8qU" class="boton esmeralda">Ver Video</a></center>
+					</p>
 				</div>
-				<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+				<img src="data:image/png;base64,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" alt="">
 			</div> <!-- / row -->
 	
 		</div> <!-- / Item 03 -->
@@ -118,10 +128,12 @@
 	
 		<div class="row">
 			<div class="description">
-				<h1>Item 04</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
+				<h1>Estados de Docker</h1>
+				<p>Los contenedores cuando están funcionando sin problemas nos indicará, que llevan UP tanto tiempo. En cambio, si no están disponibles nos mostrarám uno de estos estados: exited, unhealthy, dead o create.
+					<br><br/> <center><a href="https://youtu.be/t-2SCmtNHEc" class="boton esmeralda">Ver Video</a></center>
+				</p>
 			</div>
-			<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+			<img src="https://www.tutorialworks.com/assets/images/docker-container-lifecycle.png" alt="">
 		</div> <!-- / row -->
 
 	</div> <!-- / Item 04 -->
@@ -131,10 +143,13 @@
 	
 			<div class="row">
 				<div class="description">
-					<h1>Item 02</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
+					<h1>Modo Interactivo</h1>
+					<p>En el modo interactivo podremos tener acceso al contenido de nuestro contenedor segun la funcion que estemos usando, en el caso de hoy veremos el modo interactivo dentro de un S.O de Ubuntu.
+						<br><br/> <center><a href="https://youtu.be/t-2SCmtNHEc" class="boton esmeralda">Ver Video</a></center>
+					</p>
+				
 				</div>
-				<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+				<img src="https://static.platzi.com/media/user_upload/carbon%20%2810%29-2dabf236-e23b-42eb-b4c6-ea67f7891b53.jpg" alt="">
 			</div> <!-- / row -->
 	
 		</div> <!-- / Item 05 -->
@@ -145,14 +160,53 @@
 	
 		<div class="row">
 			<div class="description">
-				<h1>Item 02</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
+				<h1>Ciclo de vida Docker</h1>
+				<p>Cuando ejecutamos el comando docker container run -it ubuntu se crea una instancia de la imagen que hemos invocado y se ejecuta en un nuevo contenedor, en este momento el contenedor se encuentra en estado de arranque.
+				</p><p>Cuando se arranca el contenedor este se encuentra en estado de ejecución, por lo que realiza las tareas que requiere e incluso podemos interactuar con el.	
+				</p><p>	Apenas abandonamos el contenedor nos dimos cuenta que este contenedor cerro su ejecución, pues ya no aparece al listar los contenedores en ejecución, en este punto el contenedor de Docker se encuentra en estado detenido.</p>
+				<p>Haciendo foco particularmente en el contenedor, podemos mencionar que los diferentes estados que este puede manejar son Created, Running, Stopped, Paused, Killed.
+					<br><br/> <center><a href="https://youtu.be/FjvBS_eItI4" class="boton esmeralda">Ver Video</a></center>	
+				</p>
 			</div>
-			<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+			<img src="http://codigoelectronica.com/attach/images/uploads/2020/06/im-docker-ciclo-vida-contenedor.jpg" alt="">
 		</div> <!-- / row -->
 
-	</div> <!-- / Item 06 -->
+	</div> <!-- / Item 07 -->
+	<!-- Item 06 -->
+	<div id="item07" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Exponiendo Contenedores</h1>
+				
+				<p>La exposición de puertos, consiste en reservar un puerto en el servidor Docker con el fin de redirigir las peticiones a un puerto específico.
 
+					Por ejemplo, podemos indicar que el puerto 80 del contenedor sea redirigido al puerto 23250 del servidor anfitrión.
+					
+					Para realizar dicha tarea utilizaremos las opciones –p o –P, más los puertos indicados.
+					<br><br/> <center><a href="https://youtu.be/lUQY0-FZSzE" class="boton esmeralda">Ver Video</a></center>	
+				</p>
+			</div>
+			<img src="https://www.bilogistik.com/wp-content/uploads/2021/03/container-ship-carrying-container-for-business-freight-import-and-export-aerial-view-container-ship-arriving-in-commercial-port.jpg" alt="">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 07 -->
+
+		<!-- Item 06 -->
+		<div id="item07" class="port">
+	
+			<div class="row">
+				<div class="description">
+					<h1>Talentum y Docker</h1>
+					
+					<p>Dentro de Talentum se desarrollo un proyecto con docker en cual se introdujo un repositorio funcional en el cual se ejecutaban webscrappers para la recoleccion de posiciones permitiendo la facilidad de compartir y ejecutar el contenedor
+						<br><br/> <center><a href="https://youtu.be/lUQY0-FZSzE" class="boton esmeralda">Ver Video</a></center>	
+					</p>
+				</div>
+				<img src="https://www.bilogistik.com/wp-content/uploads/2021/03/container-ship-carrying-container-for-business-freight-import-and-export-aerial-view-container-ship-arriving-in-commercial-port.jpg" alt="">
+			</div> <!-- / row -->
+	
+		</div> <!-- / Item 07 -->
 
 
 
